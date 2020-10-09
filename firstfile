@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-
 <html lang="pt">
-
   <head>
     <meta charset="UTF-8">
-    <title>Desenvolvimento Web</title>
+    <title>WebDev</title>
   </head>
-
   <body>
-    <h1>Olá stor!</h1>
-    <hr>
-    <p>Joao Pedro Reis da Silva - 30002830 - Engenharia Informática</p>
+     <header>
+       <h1>Olaa Stor</h1>
+     </header>
+   
+    <footer>
+        <h1>Joao Pedro Reis da Silva - 30002830 - Engenharia Informática</h2>
+    </footer>
   </body>
-
 </html>
