@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>TPC 01</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<header>
+			<h1><span style="background-color: #FFFF00">Joao Silva</span></h1>
+			<nav>
+				<h3>Meus links:</h3>
+				<a href="https://github.com/Joao-Reis-Silva">Um</a>
+				<a href="https://github.com/Joao-Reis-Silva">Dois</a>
+				<a href="https://github.com/Joao-Reis-Silva">Três</a>
+				<span style="background-color: #FFFF00"><a href="https://github.com/Joao-Reis-Silva">Sua Escolha</a></span>				
+
+			</nav>
+		</header>
+		<section>
+			<h2><span style="background-color: #FFFF00">Comidas Favoritas</span></h2>
+			<ul type="disc">
+				<li><span style="background-color: #FFFF00">Queijo</span>
+				<li><span style="background-color: #FFFF00">Granola</span>
+				<li><span style="background-color: #FFFF00">Massa</span>
+				<li><span style="background-color: #FFFF00">Peixe</span>
+			</ul>
+
+			<h2>Feitos</h2>
+			<p>Progresso nesta disciplina (5%)
+				<progress value = "0.05"></progress><br/>
+				Progresso no curso (66%)
+				<progress value = "0.66"></progress><br/>
+				Progresso nos objetivos da vida (70%)
+				<span style="background-color: #FFFF00"><progress value = "0.70"></progress></span>
+			</p>
+			
+
+			<h2>Mais sobre mim</h2>
+			<details>
+				<summary>Minha Infância</summary>
+				<span style="background-color: #FFFF00">Nasci em Portugal e sempre vivi em Lisboa </span>
+			</details> <br>
+			
+			<img src="https://ualmedia.pt/wp-content/uploads//2018/05/ual.jpg">
+		</section>
+		<footer>
+			<p>Esta página foi criada por <span style="background-color: #FFFF00">Joao Silva </span> &amp Laercio Curvinel. Para saber mais sobre a Ual, visite a <a href="https://autonoma.pt/">Universidade Autonoma</a> </p>
+		</footer>
+	</body>
+</html>
