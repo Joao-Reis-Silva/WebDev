@@ -1,50 +1,60 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>TPC 01</title>
-		<meta charset="UTF-8">
-	</head>
-	<body>
-		<header>
-			<h1><span style="background-color: #FFFF00">Joao Silva</span></h1>
-			<nav>
-				<h3>Meus links:</h3>
-				<a href="https://joao-reis-silva.github.io/WebDev/">Um</a>
-				<a href="https://joao-reis-silva.github.io/WebDev/">Dois</a>
-				<a href="https://joao-reis-silva.github.io/WebDev/">Três</a>
-				<span style="background-color: #FFFF00"><a href="https://youtu.be/DdOEpfypWQA">TOUCH ME</a></span>				
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Pagina</title>
+        <meta charset="utf-8">
 
-			</nav>
-		</header>
-		<section>
-			<h2><span style="background-color: #FFFF00">Clubes favoritos</span></h2>
-			<ul type="disc">
-				<li><span style="background-color: #FFFF00">Porto</span>
-				<li><span style="background-color: #FFFF00">Porto B</span>
-				<li><span style="background-color: #FFFF00">Porto C</span>
-				<li><span style="background-color: #FFFF00">Canelas</span>
-			</ul>
+         <!-- Links Obtidos do https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
 
-			<h2>Feitos</h2>
-			<p>Progresso nesta disciplina (5%)
-				<progress value = "0.05"></progress><br/>
-				Progresso no curso (66%)
-				<progress value = "0.66"></progress><br/>
-				Progresso nos objetivos da vida (70%)
-				<span style="background-color: #FFFF00"><progress value = "0.70"></progress></span>
-			</p>
-			
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+            <a href="#" class="navbar-brand">Barra de Navegação</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarCollapse1">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link ">Link 1</a>
+                    <a href="#" class="nav-item nav-link ">Link 2</a>
+                    <a href="#" class="nav-item nav-link ">LInk 3</a>
+                </div>
+                <form class="form-inline ml-auto">
+                    <input type="text" class="form-control mr-sm-2" placeholder="Barra de pequisa">
+                    <button type="submit" class="btn btn-outline-light">Pesquisar</button>
+                </form>
+            </div>
+        </nav>
 
-			<h2>Mais sobre mim</h2>
-			<details>
-				<summary>Minha Infância</summary>
-				<span style="background-color: #FFFF00">Nasci em Portugal e sempre vivi em Lisboa </span>
-			</details> <br>
-			
-			<img src="https://ualmedia.pt/wp-content/uploads//2018/05/ual.jpg">
-		</section>
-		<footer>
-			<p>Esta página foi criada por <span style="background-color: #FFFF00">Joao Silva </span> &amp Laercio Curvinel. Para saber mais sobre a Ual, visite a <a href="https://autonoma.pt/">Universidade Autonoma</a> </p>
-		</footer>
-	</body>
+        <div class="container">
+            <h1>Isto é uma pagina</h1>
+            <p> Esta pagina responde ao tamanho dos ecrãs.</p>
+
+
+            <div class="progress center-block" style="width: 35%"> 
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%;">
+                <span> Barra de progresso </span>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div class="container" style="padding-top: 2%;">
+            <button type="button" class="btn btn-primary">Botão 1</button> 
+            <button type="button" class="btn btn-primary">Botão 2</button>
+            <button type="button" class="btn btn-primary">Botão 3</button>
+        </div>
+        
+
+        <footer class="page-footer font-small pt-4 fixed-bottom">
+            <div class="text-center py-3">Joao Silva - 30002830</div>
+        </footer>
+    </body>
 </html>
